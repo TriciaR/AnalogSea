@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">    <title>Analog Sea Login</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/analogsea.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+  </head>
+
+  <body>
+    <img src="images/logo.png" class="ASlogo" alt="Analog Sea logo"/>
+
+    <form action="#/signup/" method="post">
+      <h1 class="SignUp">Sign Up</h1>
+
+      <fieldset>
+        <label for="email">Email</label>
+        <input type="email" required name='email' id='email' placeholder="foo@bar.com" />
+
+        <label for="password">Password</label>
+        <input type="text" required name='password' id='password' placeholder="1234Passw0rd" />
+      </fieldset>
+
+      <button type='submit' name="signup">Sign Up</button>
+
+      <a href="#/forgot-password/new" class="forgot">Forgot password?</a>
+
+    </form>
+
+    <section class="login">
+      <p>Already have an account?</p>
+      <a href="#/login" class="alog">Log In</a>
+    </section>
+
+  </body>
+</html>

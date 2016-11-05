@@ -1,0 +1,109 @@
+* {
+  font-family: 'Exo 2', sans-serif;
+  margin: 0;
+}
+
+body {
+  background: darkcyan;
+  margin: 40px 200px 200px 40px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 400px;
+}
+
+img.ASlogo {
+  margin: 30px auto;
+  display: block;
+  position: relative;
+  height: 35px;
+}
+form{
+  font-family: 'Exo 2', sans-serif;
+  margin: 0;
+  top: 20px;
+  background: white;
+  width: 320px;
+  padding: 40px;
+
+}
+.SignUp{
+  font-family: 'Exo 2', sans-serif;
+  display: block;
+  position: relative;;
+  max-width: 320px;
+  font-size: 30px;
+  text-align: center;
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+fieldset {
+  box-sizing: border-box;
+  max-width: 320px;
+  border: 0;
+  padding: 0;
+}
+label {
+  display: block;
+  width: 290px;
+  font-size: 20px;
+  padding: 15px 0;
+}
+input#password, input#email {
+  display: block;
+  position: relative;
+  width: 290px;
+  text-align: left;
+  padding: 15px 15px;
+  margin: 15px 0;
+  font-size: 20px;
+}
+button {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  width: 320px;
+  text-align: center;
+  padding: 15px 15px;
+  margin: 30px 0;
+  font-size: 20px;
+  color: white;
+  background-color: green;
+}
+button:hover {
+  background-color: darkgreen;
+  color: white;
+}
+.forgot {
+  display: block;
+  position: relative;
+  width: inherit;
+  text-align: center;
+  color: darkgray;
+  padding: 15px 0;
+}
+section.login {
+  display: inline-block;
+  width: 400px;
+
+}
+section.login, a.alog {
+  display: inline;
+  position: relative;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  width: 400px;
+}
+p {
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+  padding-left: 25%;
+}
+  a.alog:link {
+  color: white;
+  text-decoration: underline;
+}
